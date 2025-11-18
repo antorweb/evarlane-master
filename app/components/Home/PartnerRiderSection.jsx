@@ -8,20 +8,20 @@ const PartnerRiderSection = () => {
       label: "Earn more with lower fees",
       signupLabel: "Signup as business",
       title: "Partner with us",
-      image: "/public/patnerImg1.png",
+      image: "/patnerImg1.png",
     },
     {
       label: "Avail exclusive perks",
       signupLabel: "Signup as a rider",
       title: "Ride with us",
-      image: "/public/patnerImg2.png",
+      image: "/patnerImg2.png",
     },
   ];
 
 
   return (
     <>
-     <section className=" pb-[53px]">
+     <section id='patnerRider' className=" pb-[53px]">
         <div className="container">
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

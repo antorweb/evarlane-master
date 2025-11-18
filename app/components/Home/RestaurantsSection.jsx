@@ -9,7 +9,7 @@ const RestaurantsSection = () => {
     {
       title: "McDonald’s London ",
       restaurants: 21,
-      image: "/images/food.png",
+      image: "/mc'donals.png",
     },
     {
       title: "Papa Johns",
@@ -53,10 +53,10 @@ const RestaurantsSection = () => {
             <div className="  grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
                         {Restorent.map((cat, index) => (
                           <div  key={index}  className="w-[238px] h-[266px] bg-[#FC8A06] relative rounded-lg overflow-hidden mb-3" >
-                            <div className=" w-[238px] h-[203px]">
-                              <Image  src={cat.image}  alt={cat.title} fill className="object-cover" />
-                            </div>
-                            <h3 className="text-[18px] text-center font-bold font-main text-white">{cat.title}</h3>
+                          <div className="relative w-full h-[203px] overflow-hidden">
+  <Image src={cat.image} alt={cat.title} fill className="object-cover" />
+</div>
+                            <h3 className="text-[18px] text-center font-bold py-[18px] font-main text-white">{cat.title}</h3>
                         
                           </div>
                         ))}
