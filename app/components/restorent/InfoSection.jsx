@@ -39,25 +39,28 @@ export default function InfoSection() {
         </div>
 
         {/* CENTER — Contact Information */}
-        <div className="bg-gray-50 p-6 md:w-1/3 ">
+        <div className=" ">
           <h2 className=" text-[32px] font-bold mb-[42px] font-main text-[#03081F]">
             <span>📇</span> Contact information
           </h2>
 
-          <p className="text-sm mb-3 leading-relaxed">
-            If you have allergies or other dietary restrictions, please
+          <p className="text-[18px] font-normal font-main text-black">If you have allergies or other dietary</p>
+<div className="w-[427px] mt-[10px]">
+
+          <p className="text-[18px] font-normal font-main text-black">
+             restrictions, please
             contact the restaurant. The restaurant will provide food-specific
             information upon request.
           </p>
 
+</div>
           <p className="text-sm mt-4">
-            <strong>Phone number</strong><br />
-            +934443-43
+            <strong className="text-[18px] font-bold font-main text-black">Phone number</strong><br /> <p className="text-[24px] font-normal font-main text-[#03081F]">+934443-43</p>
           </p>
 
-          <p className="text-sm mt-3">
-            <strong>Website</strong><br />
-            <a href="http://mcdonalds.uk/" className="text-blue-600 underline">
+          <p className="mt-[14px]">
+            <strong className="text-[18px] font-bold font-main text-black">Website</strong><br />
+            <a href="http://mcdonalds.uk/" className="text-[24px] font-normal pt-[5px] font-main text-[#03081F] underline">
               http://mcdonalds.uk/
             </a>
           </p>
