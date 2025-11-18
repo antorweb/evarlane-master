@@ -4,9 +4,9 @@ const Banner = () => {
   return (
     <>
 
-    <section id='banner' className='pt-[134px] pb-[162px]'>
+    <section  className='mt-[41px]'>
       <div className="container">
-        <div>
+        <div id='banner' className=' rounded-[12px] pt-[134px] pl-[57px] pb-[162px] border border-[#0000001c]' >
 
 
           <h4 className='text-[16px] font-normal font-main text-[#03081F] '>Order Restaurant food, takeaway and groceries.</h4>

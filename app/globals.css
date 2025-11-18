@@ -31,14 +31,12 @@
 }
 
 
-#banner{
 
-   background: url(/public/Banner.png);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-  
-
+#banner {
+  background: url('/Banner.png');
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #offerImg{
@@ -61,8 +59,10 @@
 
 .antor-con{
 
-  background: url(/public/PersonalisedBanner.png);
-  background: rebeccapurple;
+  background: url(/PersonalisedBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 

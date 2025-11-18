@@ -7,7 +7,7 @@ const Categories = () => {
     {
       title: "Burgers & Fast food",
       restaurants: 21,
-      image: "/images/food.png",
+      image: "/food1.png",
     },
     {
       title: "Salads",
@@ -40,17 +40,6 @@ const Categories = () => {
     <>
       <section className="pt-[63px] pb-[56px]">
         <div className="container">
-          {/* <div className='w-[238px] h-[266px] text-center shadow rounded-[12px] bg-[#F5F5F5] border border-[#00000015]' >
-
-                <Link href={'/'}  >
-                <Image src={''} width={238} height={203} alt='imges'  />
-
-                <h2 className='text-[18px] font-bold font-main text-[#03081F] mt-[9px]'>Burgers & Fast food</h2>
-                <h5 className='text-[13px] font-normal font-main text-[#FC8A06]'>21 Restaurants</h5>
-                </Link>
-
-            </div> */}
-
           <div className="mb-[51px]">
             <h2 className="text-[32px] font-bold font-main text-black">
               Order.uk Popular Categories 🤩
@@ -61,9 +50,9 @@ const Categories = () => {
             {categories.map((cat, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow hover:shadow-md transition p-3 cursor-pointer"
+                className=" bg-[#F5F5F5] rounded-xl shadow hover:shadow-md transition  cursor-pointer"
               >
-                <div className="w-full h-32 relative rounded-lg overflow-hidden mb-3">
+                <div className="w-[238px] h-[203px] relative rounded-lg overflow-hidden ">
                   <Image
                     src={cat.image}
                     alt={cat.title}
@@ -71,10 +60,13 @@ const Categories = () => {
                     className="object-cover"
                   />
                 </div>
-                <h3 className="font-medium">{cat.title}</h3>
-                <p className="text-sm text-orange-500">
+                <div className="pt-[9px] pb-[10px] pl-[22px]">
+
+                <h3 className="text-[18px] font-bold font-main  text-[#03081F]">{cat.title}</h3>
+                <p className="text-[13px] font-normal font-main  text-[#FC8A06]">
                   {cat.restaurants} Restaurants
                 </p>
+                </div>
               </div>
             ))}
           </div>

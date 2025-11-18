@@ -22,7 +22,7 @@ const Personalised = () => {
 
 
             {/* ---------------- right-side content here */}
-            <div className="">
+            <div className="pr-[85px]">
               <p className="text-[68px]   flex justify-end items-center font-bold font-main text-[#03081F]">
                 <Image src={images} width={268} alt="img" />
                 ingis more
@@ -30,7 +30,7 @@ const Personalised = () => {
 
               <div className="text-end flex justify-end">
                 <div className="w-[878px] mt-[30px]  mb-[24px] flex justify-end pr-[60px] bg-[#03081F] rounded-full">
-                  <h2 className="text-[54px] font-bold font-main text-white">
+                  <h2 className="text-[47px] font-bold font-main text-white">
                     {" "}
                     <span className="text-[#FC8A06] underline">
                       Personalised
