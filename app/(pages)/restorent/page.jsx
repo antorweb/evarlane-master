@@ -1,5 +1,7 @@
+import RestaurantsSection from "@/app/components/Home/RestaurantsSection"
 import InfoSection from "@/app/components/restorent/InfoSection"
 import LeftSidebar from "@/app/components/restorent/LeftSidebar"
+import MapLocationCard from "@/app/components/restorent/MapLocationCard"
 
 const page = () => {
   return (
@@ -8,6 +10,10 @@ const page = () => {
 
 <LeftSidebar />
 <InfoSection />
+
+<MapLocationCard />
+
+<RestaurantsSection />
 
   
  
