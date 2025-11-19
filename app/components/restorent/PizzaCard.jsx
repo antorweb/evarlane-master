@@ -8,7 +8,7 @@ export default function PizzaCard() {
     <div className="w-[754px] h-[403px] shadow  bg-white rounded-[8px]">
       
       {/* LEFT SIDE: TEXT */}
-      <div className="flex-1">
+      <div className="flex-1 pl-[27px] pr-[32px] pt-[28px] pb-[18px]">
 
         <div className="flex justify-between items-center ">
 
