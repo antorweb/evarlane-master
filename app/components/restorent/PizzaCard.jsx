@@ -5,7 +5,7 @@ import pizzaImg from '../../../public/pizzaImg.png'
 
 export default function PizzaCard() {
   return (
-    <div className="w-[754px] h-[403px] shadow  bg-white rounded-[8px]">
+    <div className="w-[754px] h-[403px] shadow hover:scale-50  bg-white rounded-[8px]">
       
       {/* LEFT SIDE: TEXT */}
       <div className="flex-1 pl-[27px] pr-[32px] pt-[28px] pb-[18px]">
