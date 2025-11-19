@@ -5,7 +5,7 @@ export default function InfoSection() {
 
 
 
-    <section className="InfoSection">
+    <section className="InfoSection mt-[23px] mb-[98px]" >
 
         <div className="container">
 

@@ -8,6 +8,7 @@ const page = () => {
 
 <LeftSidebar />
 <InfoSection />
+
   
  
     </>

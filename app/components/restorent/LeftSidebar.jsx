@@ -3,11 +3,10 @@ import React, { useState } from "react";
 import Breadcrumb from "@/app/components/common/Breadcrumb";
 import Image from "next/image";
 
-import menuImg from '../../../public/menuImg.png'
-
+import menuImg from "../../../public/menuImg.png";
+import PizzaCard from "./PizzaCard";
 
 const LeftSidebar = () => {
-
   const menuItems = [
     "Pizzas",
     "Garlic Bread",
@@ -30,6 +29,10 @@ const LeftSidebar = () => {
         <div className="container">
           <Breadcrumb />
 
+          <div className="flex">
+
+
+
           <div id="res-sec-1">
             <h2 className="text-[32px] font-semibold font-main mb-[41px] text-[#000]">
               Order from Tandoori Pizza London
@@ -37,7 +40,7 @@ const LeftSidebar = () => {
 
             <div className="w-[367px] mb-[33px] h-[800px] bg-[#FBFBFB] border border-[#BCBCBC] shadow rounded-[12px]">
               {/* Header */}
-              <div className="flex items-center gap-2 px-4 mt-[50px] pb-[48px] border-b">
+              <div className="flex items-center gap-2 px-4 mt-[50px] pb-[48px] ">
                 <h2 className="text-[32px] font-semibold font-main text-[#000]">
                   Menu
                 </h2>
@@ -63,10 +66,19 @@ const LeftSidebar = () => {
               </ul>
             </div>
 
-<Image src={menuImg} width={367} alt="Menu Image" className="" />
-
- 
+            <Image src={menuImg} width={367} alt="Menu Image" className="" />
           </div>
+
+          <div id="res-sec-2">
+
+            <PizzaCard />
+
+
+          </div>
+
+
+          </div>
+
         </div>
       </section>
     </>
