@@ -72,6 +72,9 @@ const LeftSidebar = () => {
           <div id="res-sec-2">
 
             <PizzaCard />
+            <PizzaCard />
+            <PizzaCard />
+            <PizzaCard />
 
 
           </div>

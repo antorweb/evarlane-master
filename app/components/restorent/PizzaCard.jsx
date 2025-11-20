@@ -42,25 +42,27 @@ export default function PizzaCard() {
         </div>
 
         {/* Size Buttons */}
-        <div className="mt-[36px]">
-          <button className="px-[15px] hover:bg-[#03081F] border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
+        <div className="mt-[36px] flex flex-wrap gap-[5px]">
+          <button className="px-[15px] hover:bg-[#03081F] duration-300 border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
             Small <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£21.90</button>
           </button>
           
 
-           <button className="px-[15px] hover:bg-[#03081F] border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
+           <button className="px-[15px] hover:bg-[#03081F] duration-300 border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
             Medium <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£25.90</button>
           </button>
 
-           <button className="px-[15px] hover:bg-[#03081F] border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
+           <button className="px-[15px] hover:bg-[#03081F] duration-300 border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
             Large <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£27.90</button>
           </button>
           
-           <button className="px-[15px] hover:bg-[#03081F] border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
+           <button className="px-[15px] hover:bg-[#03081F] duration-300 border border-[#03081f27] text-black text-[14px] font-bold font-main rounded-[4px] hover:text-[#fff]"> 
             XL Large with Sauces <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£32.90</button>
           </button>
 
         </div>
+
+        
       </div>
     </div>
   );
