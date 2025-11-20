@@ -4,9 +4,9 @@ import { IoIosArrowForward } from "react-icons/io";
 
 export default function Basket() {
   return (
-    <div className="w-[340px] mx-auto bg-white shadow-xl rounded-xl overflow-hidden border">
+    <div className="w-[367px] mx-auto bg-white shadow-xl rounded-xl overflow-hidden border">
       {/* Header */}
-      <div className="text-[32px] font-semibold font-main text-[#fff] bg-[#028643] pt-[40px] pb-[29px] flex justify-center gap-30px">
+      <div className="text-[32px] font-semibold font-main text-[#fff] bg-[#028643] pt-[40px] pb-[29px] flex justify-center gap-[30px]">
         <span>🧺</span> My Basket
       </div>
 
@@ -14,9 +14,9 @@ export default function Basket() {
       <div className="divide-y">
         {/* Item 1 */}
         <div className="flex items-start p-4 gap-3">
-          <div className="text-sm font-bold bg-yellow-400 w-8 h-8 flex items-center justify-center rounded-full">1x</div>
+          <div className="text-[24px] font-bold font-main text-[#fff] bg-[#FC8A06] p-[10px] rounded-full">1x</div>
           <div className="flex-1 text-sm">
-            <p className="font-semibold text-[#1f1f1f]">£27.90</p>
+            <p className="text-[20px] font-semibold font-main text-[#028643]">£27.90</p>
             <p className="font-semibold text-gray-700">12" Vegetarian Pizza</p>
             <p className="text-xs text-gray-500">No Mushrooms + green peppers</p>
           </div>
