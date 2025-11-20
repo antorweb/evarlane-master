@@ -44,7 +44,7 @@ export default function PizzaCard() {
         {/* Size Buttons */}
         <div className="">
           <button className="w-[182px] bg-[#03081F] text-[14px] font-bold font-main text-[#fff]"> 
-            Small <button className="w-[90px]">£21.90</button>
+            Small <button className="w-[90px] text-[14px] font-bold font-main text-[#fff]">£21.90</button>
           </button>
 
           <button className="px-4 py-2 rounded-md bg-green-600 text-white">
