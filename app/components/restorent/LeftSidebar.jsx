@@ -41,7 +41,7 @@ const LeftSidebar = () => {
             <h2 className="text-[32px] font-semibold font-main mb-[41px] text-[#000]">
               Order from Tandoori Pizza London
             </h2>
-            <div className="w-[344px]"><CgSearchLoading /><input type="text" placeholder="Search from menu..." /></div>
+            <div className="w-[344px] py-[19px] flex items-center gap-[10px] border border-[#03081F] px-[28px]"><CgSearchLoading className="text-[26px]" /><input className="w-full outline-none text-[18px] font-semibold font-main text-[#03081F]" type="text" placeholder="Search from menu..." /></div>
             </div>
 
             <div className="w-[367px] mb-[33px] h-[800px] bg-[#FBFBFB] border border-[#BCBCBC] shadow rounded-[12px]">
