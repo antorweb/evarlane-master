@@ -65,14 +65,14 @@ export default function Basket() {
       </div>
 
       {/* Total to pay */}
-      <div className="bg-[#FC8A06] text-white font-semibold text-lg p-4 flex justify-between items-center rounded-md mx-4 mb-4">
-        <span>Total to pay</span>
-        <span>£127.90</span>
+      <div className=" py-[23px] bg-[#FC8A06] text-white font-semibold text-lg p-4 flex justify-between items-center rounded-md ">
+        <span className="text-[20px] font-semibold font-main text-[#fff]">Total to pay</span>
+        <span className="text-[36px] font-semibold font-main text-[#fff]">£127.90</span>
       </div>
 
       {/* Free item selector */}
       <div className="mx-4 mb-3">
-        <button className="w-full border rounded-lg p-3 text-sm flex justify-between items-center bg-gray-50">
+        <button className=" text-[16px] font-normal font-main text-[#000]">
           Choose your free item
           <IoIosArrowForward />
         </button>
@@ -83,7 +83,7 @@ export default function Basket() {
         <input 
           type="text" 
           placeholder="Apply Coupon Code here" 
-          className="w-full border rounded-lg p-3 text-sm"
+          className=" text-[16px] font-normal font-main text-[#000]"
         />
       </div>
 
