@@ -17,54 +17,55 @@ export default function Basket() {
           <div className="text-[24px] font-bold font-main text-[#fff] bg-[#FC8A06] p-[10px] rounded-full">1x</div>
           <div className="flex-1 text-sm">
             <p className="text-[20px] font-semibold font-main text-[#028643]">£27.90</p>
-            <p className="font-semibold text-gray-700">12" Vegetarian Pizza</p>
-            <p className="text-xs text-gray-500">No Mushrooms + green peppers</p>
+            <p className="text-[16px] font-semibold font-main my-[6px] text-[#03081F]">12" Vegetarian Pizza</p>
+            <p className=" w-[175px] text-[15px] font-normal font-main text-[#03081F]">No Mushrooms + green peppers</p>
           </div>
           <FiTrash2 className="text-gray-500 cursor-pointer" />
         </div>
 
         {/* Item 2 */}
-        <div className="flex items-start p-4 gap-3">
-          <div className="text-sm font-bold bg-yellow-400 w-8 h-8 flex items-center justify-center rounded-full">1x</div>
+         <div className="flex items-start p-4 gap-3">
+          <div className="text-[24px] font-bold font-main text-[#fff] bg-[#FC8A06] p-[10px] rounded-full">1x</div>
           <div className="flex-1 text-sm">
-            <p className="font-semibold text-[#1f1f1f]">£17.90</p>
-            <p className="font-semibold text-gray-700">17" Tandoori Pizza</p>
-            <p className="text-xs text-gray-500">No Mushrooms + green peppers</p>
+            <p className="text-[20px] font-semibold font-main text-[#028643]">£27.90</p>
+            <p className="text-[16px] font-semibold font-main my-[6px] text-[#03081F]">12" Vegetarian Pizza</p>
+            <p className=" w-[175px] text-[15px] font-normal font-main text-[#03081F]">No Mushrooms + green peppers</p>
           </div>
-          <FiTrash2 className="text-gray-500 cursor-pointer" />
+          <FiTrash2 className=" text-[35px] cursor-pointer" />
         </div>
 
         {/* Item 3 */}
-        <div className="flex items-start p-4 gap-3">
-          <div className="text-sm font-bold bg-yellow-400 w-8 h-8 flex items-center justify-center rounded-full">2x</div>
+            <div className="flex items-start p-4 gap-3">
+          <div className="text-[24px] font-bold font-main text-[#fff] bg-[#FC8A06] p-[10px] rounded-full">1x</div>
           <div className="flex-1 text-sm">
-            <p className="font-semibold text-[#1f1f1f]">£4.90</p>
-            <p className="font-semibold text-gray-700">Coke Coca Cola</p>
+            <p className="text-[20px] font-semibold font-main text-[#028643]">£27.90</p>
+            <p className="text-[16px] font-semibold font-main my-[6px] text-[#03081F]">12" Vegetarian Pizza</p>
+            <p className=" w-[175px] text-[15px] font-normal font-main text-[#03081F]">No Mushrooms + green peppers</p>
           </div>
-          <FiTrash2 className="text-red-500 cursor-pointer" />
+          <FiTrash2 className=" text-[35px] cursor-pointer" />
         </div>
 
         {/* Item 4 */}
-        <div className="flex items-start p-4 gap-3">
-          <div className="text-sm font-bold bg-yellow-400 w-8 h-8 flex items-center justify-center rounded-full">1x</div>
+            <div className="flex items-start p-4 gap-3">
+          <div className="text-[24px] font-bold font-main text-[#fff] bg-[#FC8A06] p-[10px] rounded-full">1x</div>
           <div className="flex-1 text-sm">
-            <p className="font-semibold text-[#1f1f1f]">£27.90</p>
-            <p className="font-semibold text-gray-700">12" Vegetarian Pizza</p>
-            <p className="text-xs text-gray-500">No Mushrooms + green peppers</p>
+            <p className="text-[20px] font-semibold font-main text-[#028643]">£27.90</p>
+            <p className="text-[16px] font-semibold font-main my-[6px] text-[#03081F]">12" Vegetarian Pizza</p>
+            <p className=" w-[175px] text-[15px] font-normal font-main text-[#03081F]">No Mushrooms + green peppers</p>
           </div>
-          <FiTrash2 className="text-purple-500 cursor-pointer" />
+          <FiTrash2 className=" text-[35px] cursor-pointer" />
         </div>
       </div>
 
       {/* Pricing */}
       <div className="p-4 text-sm space-y-1">
-        <div className="flex justify-between"><span>Sub Total:</span><span>£127.90</span></div>
-        <div className="flex justify-between"><span>Discounts:</span><span>-3.00</span></div>
-        <div className="flex justify-between"><span>Delivery Fee:</span><span>2.50</span></div>
+        <div className="flex justify-between"><span className="text-[20px] font-semibold font-main text-[#03081F]">Sub Total:</span><span className="text-[24px] font-normal font-main text-[#212121]">£127.90</span></div>
+        <div className="flex justify-between"><span className="text-[20px] font-semibold font-main text-[#03081F]">Discounts:</span><span className="text-[24px] font-normal font-main text-[#212121]">-3.00</span></div>
+        <div className="flex justify-between"><span className="text-[20px] font-semibold font-main text-[#03081F]">Delivery Fee:</span><span className="text-[24px] font-normal font-main text-[#212121]">2.50</span></div>
       </div>
 
       {/* Total to pay */}
-      <div className="bg-orange-400 text-white font-semibold text-lg p-4 flex justify-between items-center rounded-md mx-4 mb-4">
+      <div className="bg-[#FC8A06] text-white font-semibold text-lg p-4 flex justify-between items-center rounded-md mx-4 mb-4">
         <span>Total to pay</span>
         <span>£127.90</span>
       </div>
