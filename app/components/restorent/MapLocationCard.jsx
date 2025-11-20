@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function MapLocationCard() {
   return (
     <div className="relative max-w-5xl mx-auto rounded-xl overflow-hidden shadow-lg mb-[124px]">
@@ -8,11 +10,8 @@ export default function MapLocationCard() {
 
       
       {/* MAP BACKGROUND */}
-      <img
-        src="/map.png" // replace with your map image
-        alt="Map"
-        className="w-full h-[659px] object-cover"
-      />
+      <Image src={''} width={100}  height={100} alt="img" />
+      
 
       {/* LEFT INFORMATION CARD */}
       <div className="absolute top-6 left-6 bg-[#070b16] text-white p-6 rounded-lg w-80 shadow-xl">
@@ -39,7 +38,7 @@ export default function MapLocationCard() {
       {/* RIGHT FLOATING MARKER CARD */}
       <div className="absolute right-10 top-24 bg-white p-3 rounded-md shadow-lg flex items-center gap-2 w-52">
         <div>
-          <p className="font-semibold text-sm">McDonald's</p>
+          <p className="font-semibold text-sm">McDonald&apos;s</p>
           <p className="text-gray-600 text-xs">South London</p>
         </div>
 

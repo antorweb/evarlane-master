@@ -56,7 +56,7 @@ const MegaMenu = () => {
                   <Link href={"/"} className="text-[18px] font-medium font-main text-[#000]">Home</Link>
                 </li>
                 <li className=" w-[200px] py-[9px] px-[34px] flex justify-center items-center hover:text-white rounded-full hover:bg-amber-500">
-                  <Link href={"/"} className="text-[18px] font-medium font-main text-[#000]"> Browse Menu </Link>
+                  <Link href={"/AllList"} className="text-[18px] font-medium font-main text-[#000]"> Browse Menu </Link>
                 </li>
                 <li className=" w-[200px] py-[9px] px-[34px] flex justify-center items-center hover:text-white rounded-full hover:bg-amber-500">
                   <Link href={"/"} className="text-[18px] font-medium font-main text-[#000]">Special Offers</Link>
