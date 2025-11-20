@@ -5,6 +5,8 @@ import Image from "next/image";
 
 import menuImg from "../../../public/menuImg.png";
 import PizzaCard from "./PizzaCard";
+import { CgSearchLoading } from "react-icons/cg";
+
 
 const LeftSidebar = () => {
   const menuItems = [
@@ -39,6 +41,7 @@ const LeftSidebar = () => {
             <h2 className="text-[32px] font-semibold font-main mb-[41px] text-[#000]">
               Order from Tandoori Pizza London
             </h2>
+            <div className="w-[344px]"><CgSearchLoading /><input type="text" placeholder="Search from menu..." /></div>
             </div>
 
             <div className="w-[367px] mb-[33px] h-[800px] bg-[#FBFBFB] border border-[#BCBCBC] shadow rounded-[12px]">
