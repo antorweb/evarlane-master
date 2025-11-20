@@ -46,18 +46,26 @@ export default function PizzaCard() {
           <button className="px-[15px] bg-[#03081F] text-[14px] font-bold font-main rounded-[4px] text-[#fff]"> 
             Small <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£21.90</button>
           </button>
+          
 
-          <button className="px-4 py-2 rounded-md bg-green-600 text-white">
-            Medium <span className="ml-2">£25.90</span>
+           <button className="px-[15px] bg-[#03081F] text-[14px] font-bold font-main rounded-[4px] text-[#fff]"> 
+            Medium <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£25.90</button>
           </button>
 
-          <button className="px-4 py-2 rounded-md bg-green-600 text-white">
-            Large <span className="ml-2">£27.90</span>
+           <button className="px-[15px] bg-[#03081F] text-[14px] font-bold font-main rounded-[4px] text-[#fff]"> 
+            Small <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£21.90</button>
+          </button>
+          
+           <button className="px-[15px] bg-[#03081F] text-[14px] font-bold font-main rounded-[4px] text-[#fff]"> 
+            Small <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£21.90</button>
           </button>
 
-          <button className="mt-2 px-4 py-2 rounded-md bg-green-600 text-white w-full sm:w-auto">
-            XL Large with Sauces <span className="ml-2">£32.90</span>
+           <button className="px-[15px] bg-[#03081F] text-[14px] font-bold font-main rounded-[4px] text-[#fff]"> 
+            Small <button className="w-[90px] text-[14px] font-bold font-main my-[10px] ml-[21px] rounded-[4px] bg-[#028643] py-[8px] text-[#fff]">£21.90</button>
           </button>
+      
+
+      
         </div>
       </div>
     </div>
