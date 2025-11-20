@@ -34,9 +34,12 @@ const LeftSidebar = () => {
 
 
           <div id="res-sec-1">
+            <div>
+
             <h2 className="text-[32px] font-semibold font-main mb-[41px] text-[#000]">
               Order from Tandoori Pizza London
             </h2>
+            </div>
 
             <div className="w-[367px] mb-[33px] h-[800px] bg-[#FBFBFB] border border-[#BCBCBC] shadow rounded-[12px]">
               {/* Header */}
